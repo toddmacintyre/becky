@@ -1,5 +1,17 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+:root {
+  --mobile-width: 1024px;
 }
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+/* @media only screen and (max-device-width: var(--mobile-width)) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+} */

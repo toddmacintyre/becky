@@ -1,0 +1,107 @@
+:local(.caption) {
+  text-align: center;
+  color: #000;
+}
+
+:local(.border) {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+:local(.captionContainer) {
+  text-align: center;
+  color: #000;
+}
+
+:local(.caption) {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/* generic section styles */
+:local(.parallaxImg) {
+  margin: 0;
+  opacity: 0.65;
+  overflow: hidden;
+  
+  /* create parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* center the captions */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+:local(.bgimg1) {
+  background-image: url('https://images.unsplash.com/photo-1504714071067-f2880fba258a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f1e8d8554590bdcda78cd365a24cec82');
+  min-height: 100vh;
+}
+
+:local(.section1) {
+  background-color: #fef;
+  color: #777;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+:local(.section1 h3) {
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+:local(.bgimg2) {
+  background-image: url('https://images.unsplash.com/photo-1515911105635-9d43b1f81742?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=85aae7d8d50254905c987c470e5847e8');
+  /* min-height: 400px; */
+  height: 100vh;
+  background-position: 50% 20%;
+}
+
+:local(.caption2) {
+  max-width: 100%;
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+:local(.section2) {
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+:local(.bgimg3) {
+  background-image: url('https://images.unsplash.com/photo-1519517159977-0fee7d8cfdd7?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c9e4dadfd61ef5a22d9ed8fafc9b0291');
+  /* min-height: 400px; */
+  height: 100vh;
+}
+
+:local(.caption3) {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+:local(.section3) {
+  color: #ddd;
+  background-color: #282E34;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
