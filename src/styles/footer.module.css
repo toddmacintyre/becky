@@ -1,5 +1,5 @@
 :local(.footer) {
-  background-color: black;
+  background-color: var(--primary-background);
   text-align: end;
   padding: 0 3em;
 }

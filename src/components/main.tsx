@@ -6,9 +6,7 @@ class Main extends React.Component {
     return (
       <main className={styles.main}>
         <figure className={[styles.parallaxImg, styles.bgimg1].join(' ')}>
-          <figcaption className={styles.captionContainer}>
-            <span className={styles.caption}>BECKY STOUT</span>
-          </figcaption>
+          <figcaption className={styles.caption1}>BECKY STOUT</figcaption>
         </figure>
 
         <section className={styles.section1}>
@@ -31,9 +29,9 @@ class Main extends React.Component {
         </section>
 
         <figure className={[styles.parallaxImg, styles.bgimg2].join(' ')}>
-          <figcaption className={styles.captionContainer}>
-            <span className={styles.caption2}>LESSONS</span>
-          </figcaption>
+          <div className={styles.captionContainer}>
+            <figcaption className={styles.caption2}>LESSONS</figcaption>
+          </div>
         </figure>
 
         <section className={styles.section2}>
@@ -44,9 +42,9 @@ class Main extends React.Component {
         </section>
 
         <figure className={[styles.parallaxImg, styles.bgimg3].join(' ')}>
-          <figcaption className={styles.captionContainer}>
-            <span className={styles.caption}>CONTACT</span>
-          </figcaption>
+          <div className={styles.captionContainer}>
+            <figcaption className={styles.caption2}>CONTACT</figcaption>
+          </div>
         </figure>
 
         <section className={styles.section3}>
@@ -57,9 +55,7 @@ class Main extends React.Component {
         </section>
 
         <figure className={[styles.parallaxImg, styles.bgimg1].join(' ')}>
-          <figcaption className={styles.captionContainer}>
-            <span className={styles.caption}>FINALE</span>
-          </figcaption>
+          <figcaption className={styles.caption1}>FINALE</figcaption>
         </figure>
       </main>
     );

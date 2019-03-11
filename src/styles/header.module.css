@@ -1,5 +1,5 @@
 :local(.header) {
-  background-color: black;
+  background-color: var(--primary-background);
   position: sticky;
   top: 0;
   z-index: 999;

@@ -1,14 +1,18 @@
 :root {
   --mobile-width: 1024px;
-  --primary-color: #777;
+  --primary-color: #ddd;
+  --primary-background: #111;
+  --secondary-color: #ddd;
+  --secondary-background: #282E34;
 }
 
 body, html {
+  box-sizing: border-box;
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
-  background-color: black;
+  color: var(--primary-color);
+  background-color: var(--primary-background);
 }
 
 main {
