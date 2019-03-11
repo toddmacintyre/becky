@@ -4,7 +4,7 @@ import * as styles from '../styles/footer.module.css';
 class Footer extends React.PureComponent {
   public render() {
     return (
-      <footer className={styles.footer}>Sticky footer</footer>
+      <footer className={styles.footer}>&copy; Todd MacIntyre 2019</footer>
     )
   }
 }

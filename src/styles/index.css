@@ -1,5 +1,6 @@
 :root {
   --mobile-width: 1024px;
+  --primary-color: #777;
 }
 
 body, html {
@@ -7,6 +8,11 @@ body, html {
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
+  background-color: black;
+}
+
+main {
+  background-color: white;
 }
 
 /* Turn off parallax scrolling for tablets and phones */

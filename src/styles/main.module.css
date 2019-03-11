@@ -18,7 +18,7 @@
 
 :local(.caption) {
   background-color: #111;
-  color: #fff;
+  color: var(--primary-color);
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
@@ -44,7 +44,7 @@
 }
 
 :local(.bgimg1) {
-  background-image: url('https://images.unsplash.com/photo-1504714071067-f2880fba258a?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=f1e8d8554590bdcda78cd365a24cec82');
+  background-image: url('../assets/black-and-white-body-dark-230675.jpg');
   min-height: 100vh;
 }
 
@@ -65,10 +65,10 @@
 }
 
 :local(.bgimg2) {
-  background-image: url('https://images.unsplash.com/photo-1515911105635-9d43b1f81742?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=85aae7d8d50254905c987c470e5847e8');
+  background-image: url('../assets/bridegroom-business-businessman-8115.jpg');
   /* min-height: 400px; */
   height: 100vh;
-  background-position: 50% 20%;
+  /* background-position: 50% 20%; */
 }
 
 :local(.caption2) {
@@ -87,7 +87,7 @@
 }
 
 :local(.bgimg3) {
-  background-image: url('https://images.unsplash.com/photo-1519517159977-0fee7d8cfdd7?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=c9e4dadfd61ef5a22d9ed8fafc9b0291');
+  background-image: url('../assets/coach-dance-dancing-12312.jpg');
   /* min-height: 400px; */
   height: 100vh;
 }
