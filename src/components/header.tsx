@@ -1,11 +1,13 @@
-import * as React from 'react';
-import * as styles from '../styles/header.module.css';
+import * as React from "react";
+import HamburgerMenu from './hamburgerMenu';
 
 class Header extends React.PureComponent {
   public render() {
     return (
-      <header className={styles.header}>This is the header</header>
-    )
+      <nav>
+        <HamburgerMenu />
+      </nav>
+    );
   }
 }
 

@@ -1,0 +1,16 @@
+:local(.button) {
+  z-index: 1000 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+:local(.navItems) {
+  list-style: none;
+  z-index: 1000 !important;
+  position: fixed;
+  top: 62px;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
